@@ -43,7 +43,7 @@ let routes = [
 	{
 		path: "/signup",
 		name: "signup",
-		component: () => import("../Views/SignupView.vue"),
+		component: () => import("../views/SignupView.vue"),
 	},
 	{
 		path: "/verify-email",
