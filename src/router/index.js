@@ -34,7 +34,7 @@ let routes = [
 	{
 		path: "/login",
 		name: "login",
-		component: () => import("../Views/LoginView.vue"),
+		component: () => import("../views/LoginView.vue"),
 		meta: {
 			checkLgoin: true,
 		},
