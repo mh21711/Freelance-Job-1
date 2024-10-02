@@ -1,0 +1,47 @@
+/* ?reset  */
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+::selection {
+	background-color: black;
+	color: white;
+}
+
+body {
+	font-family: "Cairo", sans-serif;
+	direction: rtl;
+	background-color: #fefefe;
+	scroll-behavior: smooth;
+}
+
+#app {
+	min-height: 100vh;
+}
+
+/* reset scroll */
+/* width */
+::-webkit-scrollbar {
+	width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #444;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}

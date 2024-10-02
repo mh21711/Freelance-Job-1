@@ -1,0 +1,1 @@
+const r={name:"co-hamburger-menu",minX:-51.2,minY:-51.2,width:614.4,height:614.4,raw:'<path fill="var(--ci-primary-color, currentColor)" d="M80 96h352v32H80zM80 240h352v32H80zM80 384h352v32H80z" class="ci-primary"/>'};export{r as C};
